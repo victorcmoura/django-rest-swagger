@@ -26,7 +26,8 @@ DEFAULTS = {
     ],
     'VALIDATOR_URL': '',
     'ACCEPT_HEADER_VERSION': None,  # e.g. '1.0'
-    'CUSTOM_HEADERS': {}  # A dictionary of key/vals to override headers
+    'CUSTOM_HEADERS': {},  # A dictionary of key/vals to override headers
+    'INDEX_PAGE_TITLE_TAG': 'Swagger UI'
 }
 
 IMPORT_STRINGS = []
